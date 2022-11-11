@@ -1,0 +1,2 @@
+SetEnv TZ America/El_Salvador
+Deny from all
