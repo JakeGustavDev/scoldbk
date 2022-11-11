@@ -292,7 +292,12 @@ class client_model extends CI_Model {
 				greygoosedoble,
 				starkling,
 				cabro,
-				snack
+				snack,
+				suprema1,
+				cabro1,
+				michelob1,
+				stela1,
+				corona1
 				)
 
 				SELECT
@@ -402,7 +407,12 @@ class client_model extends CI_Model {
 				lockers.greygoosedoble,
 				lockers.starkling,
 				lockers.cabro,
-				lockers.snack
+				lockers.snack,
+				lockers.suprema1,
+				lockers.cabro1,
+				lockers.michelob1,
+				lockers.stela1,
+				lockers.corona1
 
 				FROM lockers WHERE number='".$number."'
 			";
@@ -713,7 +723,12 @@ class client_model extends CI_Model {
 				greygoosedoble='0',
 				starkling='0',
 				cabro='0',
-				snack='0'
+				snack='0',
+				suprema1='0',
+				cabro1='0',
+				michelob1='0',
+				stela1='0',
+				corona1='0'
 
 				WHERE number='".$number."'
 			";
